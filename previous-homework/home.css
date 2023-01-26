@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /* border: 2px solid red;
+    height: 100vh; */
+    font-family: 'Open Sans', sans-serif;
+}
+img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.container{
+    background-color: rgb(226, 248, 248);
+}
+.sub-container{
+    /* border: 3px solid red; */
+    max-width: 1064px;
+    margin: auto;
+    padding-top: 2.5rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    padding-bottom: 3rem;
+}
+h3{
+    font-size: 2rem;
+    padding-bottom: 2rem;
+}
+main{
+    display: flex;
+    gap: 1rem;
+}
+.box-one{
+    padding: 1rem;
+    border-radius: 6px;
+    height: 100%;
+    background: #fff;    
+    flex: 1;
+}
+.box-two{
+    background-color: #fff;
+    padding: 1rem;
+    height: 100%;
+    border-radius: 6px;
+    flex: 1;
+}
+.box-three{
+    background-color: #fff;
+    padding: 1rem;
+    height: 100%;
+    border-radius: 6px;
+    flex: 1;
+}
+.sara-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.sara-box i{
+    color: #1da1f2;
+    font-size: 20px;
+}
+.box-one > p{
+    color: rgb(116, 115, 115);
+    line-height: 1.5;
+    font-size: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    width: 88%;
+}
+.box-two > p{
+    color: rgb(116, 115, 115);
+    line-height: 1.5;
+    font-size: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    width: 95%;
+}
+.box-three > p{
+    color: rgb(116, 115, 115);
+    line-height: 1.5;
+    font-size: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    width: 88%;
+}
+.sara-may{
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+}
+.sara-may > div > p{
+    color: rgb(116, 115, 115);
+}
+.comment{
+    display: flex;
+    justify-content: space-between;
+}
+.comment p{
+    display: flex;
+    align-items: center;
+    color: rgb(116, 115, 115);
+}
+.comment i{
+    color: red;
+    font-size: 24px;
+}
+
+/* PRICING SESSION */
+.wrapper{
+    margin: 5rem 0;
+}
+.wrapper .plan{
+    text-align: center;
+}
+.price-plan{
+    text-align: center;
+    width: 45%;
+    color: rgb(116, 115, 115);
+    margin: auto;
+}
+
+.card{
+    background-color: rgb(240, 232, 208);
+    border: 1px solid orange;
+    width: 400px;
+    margin: 2rem auto 0 auto;
+    border-radius: 6px;
+    color: rgb(116, 115, 115);
+    padding: 1.5rem;
+}
+.line{
+    height: 1px;
+    width: 100%;
+    background-color: rgb(199, 195, 195);
+}
+.checked-text{
+    padding: 0.5rem 0;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+.checked-text span{
+    font-size: 14px;
+}
+.checked-text i{
+    color: rgb(55, 198, 55);
+    font-size: 18px;
+}
+.card .pricing{
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: black;
+}
+button{
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+    margin-top: 1rem;
+    width: 100%;
+    padding: 12px 0;
+    color: white;
+    border-radius: 6px;
+    background-color: #1da1f2;
+}
+
+button i{
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+@media (max-width: 760px) {
+    main{
+        border: 3px solid red;
+        flex-direction: column;
+    }
+    .card{
+        width: 70%;
+        padding-left: -5rem;
+        padding-right: -5rem;
+    }
+}
